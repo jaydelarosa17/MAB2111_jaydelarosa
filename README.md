@@ -1,3 +1,3 @@
 # MAB2111_jaydelarosa
 
-Test_readme
+This repository is intended for submission of R_assignment and Machine_prob
