@@ -26,7 +26,7 @@
     Bulls = subset(NBA, Team == "Bulls")
       Most_wins_percentage<-max(Bulls$Winning.Percentage)
         bulls_row<-subset(Bulls,Winning.Percentage == Most_wins_percentage)
-          bulls_row$ï..Year  
+          bulls_row$?..Year  
 # b. Teams with an even win-loss record in a year
     Teams_even_records = subset(NBA, Winning.Percentage == "0.5")
       Teams_even_records$Team
@@ -63,4 +63,5 @@
     top10<-Ranking[order(Ranking$Rank),][1:10,]
       top10$tuition_no_dollar <- gsub(pattern = "\\$|\\,",replacement = "", top10$Tuition.and.fees)
         mean(as.numeric(top10$tuition_no_dollar))
-    
+
+            
