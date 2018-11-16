@@ -1,3 +1,5 @@
+#Commit local changes with Git
+
 # 1. WHO dataset
     WHO = read.csv("WHO.csv")
 # d. country with the lowest literacy
